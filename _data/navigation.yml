@@ -10,3 +10,16 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+categories:
+- title: Dev 
+  children:
+  - title: "Python"
+    url: /dev/python/
+
+- title: Extras
+  children:
+    - title: "Lifestyle"
+      url: /extras/lifestyle/
+    - title: "Reflections"
+      url: /extras/reflections/
