@@ -1,7 +1,7 @@
 ---
 title: Why Start Blog?
 categories:
-  - thoughts
+  - reflections
 tags:
   - AI
 date: 2024-11-02
