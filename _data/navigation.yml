@@ -15,11 +15,11 @@ categories:
 - title: Dev 
   children:
   - title: "Python"
-    url: /dev/python/
+    url: /categories/python/
 
 - title: Extras
   children:
     - title: "Lifestyle"
-      url: /extras/lifestyle/
+      url: /categories/lifestyle/
     - title: "Reflections"
-      url: /extras/reflections/
+      url: /categories/reflections/
