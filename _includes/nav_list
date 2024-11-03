@@ -16,7 +16,16 @@
           {% if nav.children != null %}
           <ul>
             {% for child in nav.children %}
-              <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+              <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>
+                {{ child.title }}
+                {% assign child_title_downcase = child.title | downcase %}
+                {% if site.categories[child_title_downcase] %}
+                  {% assign count = site.categories[child_title_downcase].size %}
+                {% else %}
+                  {% assign count = 0 %}
+                {% endif %}
+                <span class="post-count">({{ count }})</span>
+              </a></li>
             {% endfor %}
           </ul>
           {% endif %}

@@ -434,6 +434,11 @@
       }
     }
   }
+
+  li a {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .nav__list .nav__items {
