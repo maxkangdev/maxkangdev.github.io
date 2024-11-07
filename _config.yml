@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "maxkangdevlog"
+title                    : "simple musings"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Max Kang"
@@ -113,10 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Max Seongwoo Kang"
+  name             : "Max."
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A software engineer who believes less is more — in code, life, and everything in between."
-  location         : "South Korea"
   email            : "maxkang.dev@gmail.com"
   links:
     # - label: "Email"
