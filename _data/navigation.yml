@@ -12,14 +12,21 @@ main:
   #   url: /sitemap/
 
 categories:
-- title: Dev 
-  children:
-  - title: "Python"
-    url: /categories/python/
+  - title: Dev 
+    children:
+      - title: "Python"
+        url: /categories/python/
 
-- title: Extras
-  children:
-    - title: "Lifestyle"
-      url: /categories/lifestyle/
-    - title: "Reflections"
-      url: /categories/reflections/
+  - title: Review
+    children:
+      - title: "Books"
+        url: /categories/books/
+      - title: "Items"
+        url: /categories/items/ 
+        
+  - title: Extras
+    children:
+      - title: "Lifestyle"
+        url: /categories/lifestyle/
+      - title: "Reflections"
+        url: /categories/reflections/
