@@ -14,8 +14,8 @@ main:
 categories:
   - title: Dev 
     children:
-      - title: "Python"
-        url: /categories/python/
+      - title: "Network"
+        url: /categories/network/
 
   - title: Review
     children:
