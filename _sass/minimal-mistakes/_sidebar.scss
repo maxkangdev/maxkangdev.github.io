@@ -16,6 +16,11 @@
   //   transform: translate3d(0, 0, 0);
   // }
 
+  //background-color: #841212; /* Sidebar color */
+  border-radius: 10px; /* Adjust radius as needed */
+  padding: 10px; /* Optional padding for a softer look */
+  margin: 10px; /* Adds space around the sidebar */
+
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
@@ -157,7 +162,7 @@
   }
 
   a {
-    color: inherit;
+    color: $author-name-color;
     text-decoration: none;
   }
 }
