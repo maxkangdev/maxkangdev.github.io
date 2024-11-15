@@ -14,8 +14,12 @@ main:
 categories:
   - title: Dev 
     children:
-      - title: "Network"
-        url: /categories/network/
+      - title: "CS"
+        url: /categories/cs/
+      - title: "Etc"
+        url: /categories/etc/
+      - title: "Bug"
+        url: /categories/bug/
 
   - title: Review
     children:
