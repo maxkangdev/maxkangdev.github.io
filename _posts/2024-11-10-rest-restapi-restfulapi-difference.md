@@ -1,5 +1,5 @@
 ---
-title: Rest, RestAPI, Restful API 정리
+title: Rest, RestAPI, Restful API 차이점 
 categories:
   - network
 tags:
