@@ -1,5 +1,5 @@
 ---
-title: "Reflections"
+title: "CS"
 layout: archive
 permalink: /categories/cs/
 author_profile: true

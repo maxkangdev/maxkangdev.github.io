@@ -1,5 +1,5 @@
 ---
-title: "Reflections"
+title: "Etc"
 layout: archive
 permalink: /categories/etc/
 author_profile: true

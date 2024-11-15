@@ -1,5 +1,5 @@
 ---
-title: "Reflections"
+title: "Bug"
 layout: archive
 permalink: /categories/bug/
 author_profile: true
