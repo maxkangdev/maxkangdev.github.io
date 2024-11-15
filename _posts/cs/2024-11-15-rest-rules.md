@@ -4,8 +4,8 @@ categories:
   - cs
 tags:
   - rest
-date: 2024-11-10
-last_modified_at: 2024-11-10
+date: 2024-11-15
+last_modified_at: 2024-11-15
 ---
 
 I have written a post about the difference among `REST`, `RestAPI`, and `RestfulAPI` in [Rest, RestAPI, RestfulAPI Difference](network/rest-restapi-restfulapi-difference)
