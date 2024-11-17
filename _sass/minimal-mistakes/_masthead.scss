@@ -10,6 +10,8 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  font-family: $masthead-font;
+  font-size: $type-size-5;
 
   &__inner-wrap {
     @include clearfix;
@@ -22,7 +24,6 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
