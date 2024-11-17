@@ -1,7 +1,7 @@
 ---
 title: Rest, RestAPI, Restful API 차이점 
 categories:
-  - cs
+  - network
 tags:
   - rest
 date: 2024-11-10

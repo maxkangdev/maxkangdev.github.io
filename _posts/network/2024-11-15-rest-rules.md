@@ -1,7 +1,7 @@
 ---
 title: Rest API Rules
 categories:
-  - cs
+  - network
 tags:
   - rest
 date: 2024-11-15

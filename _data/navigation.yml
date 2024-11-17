@@ -12,14 +12,30 @@ main:
   #   url: /sitemap/
 
 categories:
+  - title: Language 
+    children:
+      - title: "Python"
+        url: /categories/python/
+      - title: "Java"
+        url: /categories/java/
+ 
   - title: Dev 
     children:
-      - title: "CS"
-        url: /categories/cs/
-      - title: "Etc"
-        url: /categories/etc/
+      - title: "DevOps"
+        url: /categories/devops/
+      - title: "Network"
+        url: /categories/network/
       - title: "Bug"
         url: /categories/bug/
+      - title: "Etc"
+        url: /categories/etc/
+
+  - title: Frameworks 
+    children:
+      - title: "FastAPI"
+        url: /categories/fastapi/
+      - title: "Spring"
+        url: /categories/spring/
 
   - title: Review
     children:
