@@ -1,6 +1,6 @@
 {{ define "main" }}
   <article>
-    {{ with .Title -}}<h1>{{- . -}}</h1>{{- end }}
+    {{ with .Title -}}<h1>{{- . | replaceRE "^\\d+\\.\\s*" "" -}}</h1>{{- end }}
     {{ with .Content -}}<div class="post-content">{{- . -}}</div>{{- end }}
     <ul class="posts-list">
       {{ range where .Paginator.Pages "Type" "!=" "page" }}
