@@ -1,6 +1,6 @@
 +++
 date = '2024-11-28T18:33:45+09:00'
-draft = true
+draft = false
 title = '왜 블로그를 해야하나...'
 tags = ["AI"]
 categories = ["99. 잡담"]

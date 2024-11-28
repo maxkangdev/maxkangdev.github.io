@@ -1,6 +1,6 @@
 +++
 date = '2024-11-28T20:54:35+09:00'
-draft = true
+draft = false
 title = '[Bug] Failed to Install Tokenizers (Feat. MacOS)'
 tags = []
 categories = ["1. Issue Resolution"]

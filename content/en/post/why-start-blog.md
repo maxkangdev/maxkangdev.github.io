@@ -1,6 +1,6 @@
 +++
 date = '2024-11-28T18:33:22+09:00'
-draft = true
+draft = false
 title = 'Why Start Blog?'
 tags = ["AI"]
 categories = ["99. thoughts"]
