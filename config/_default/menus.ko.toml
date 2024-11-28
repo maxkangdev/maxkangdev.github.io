@@ -7,8 +7,3 @@
   name = 'Tags'
   url = '/ko/tags'
   weight = 20
-
-[[main]]
-name = 'About'
-url = '/ko/about'
-weight = 20
