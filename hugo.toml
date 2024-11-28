@@ -1,0 +1,42 @@
+baseURL = 'https://example.org/'
+title = 'My New Hugo Site'
+theme = "hugo-theme-m10c"
+
+defaultContentLanguage = 'ko'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.ko]
+    contentDir = 'content/ko'
+    disabled = false
+    languageCode = 'ko-KR'
+    languageDirection = 'ltr'
+    languageName = 'Korean'
+    title = '맥스의 블로그'
+    weight = 1
+    [languages.ko.params]
+        author = "Max Kang"
+        description = "A software engineer who believes less is more — in code, life, and everything in between."
+        menu_item_separator = " - "
+
+    [[languages.ko.params.social]]
+          icon = "brand-github"
+          name = "Github"
+          url = "https://github.com/maxkangdev"
+
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = "Max's Blog"
+    weight = 2
+    [languages.en.params]
+        author = "Max Kang"
+        description = "A software engineer who believes less is more — in code, life, and everything in between."
+        menu_item_separator = " - "
+
+    [[languages.en.params.social]]
+          icon = "brand-github"
+          name = "Github"
+          url = "https://github.com/maxkangdev"

@@ -1,0 +1,14 @@
+[[main]]
+  name = 'Home'
+  url = '/ko'
+  weight = 10
+
+[[main]]
+  name = 'Tags'
+  url = '/ko/tags'
+  weight = 20
+
+[[main]]
+name = 'About'
+url = '/ko/about'
+weight = 20

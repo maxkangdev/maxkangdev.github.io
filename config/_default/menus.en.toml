@@ -1,0 +1,14 @@
+[[main]]
+  name = 'Home'
+  url = '/en'
+  weight = 10
+
+[[main]]
+  name = 'Tags'
+  url = '/en/tags'
+  weight = 20
+
+[[main]]
+name = 'About'
+url = '/en/about'
+weight = 20
