@@ -15,7 +15,7 @@ defaultContentLanguageInSubdir = true
     weight = 1
     [languages.ko.params]
         author = "Max Kang"
-        description = "A software engineer who believes less is more — in code, life, and everything in between."
+        description = "안녕하세요. 개발자 Max 입니다 🫠 심플한걸 좋아하며, 미니멀리즘을 추구(하려 노력)합니다. "
         menu_item_separator = " - "
 
     [[languages.ko.params.social]]
