@@ -4,6 +4,7 @@ $light-color: {{ .Site.Params.style.lightColor | default "#afbac4" }};
 $lightest-color: {{ .Site.Params.style.lightestColor | default "#ffffff" }};
 $primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
 
+$post-font: {{"Inter"}};
 
 .sidebar-language-switcher {
   position: absolute;
@@ -38,3 +39,6 @@ $primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
 // The last 'extra' import can optionally be overridden on a per project
 // basis by creating a <HUGO_PROJECT>/assets/css/_extra.scss file.
 @import 'extra';
+
+// Inter
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
