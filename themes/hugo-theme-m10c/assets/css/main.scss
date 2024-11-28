@@ -16,14 +16,19 @@ $post-font: {{"Inter"}};
 
 .sidebar-category {
   width: 100%; /* Ensure it spans the sidebar width */
-  text-align: center; /* Center the text, optional */
+  text-align: left; /* Center the text, optional */
 }
 
 .sidebar-category-item {
   width: 100%; /* Ensure it spans the sidebar width */
-  text-align: center; /* Center the text, optional */
+  text-align: left; /* Center the text, optional */
 }
 
+.line{
+  text-align: left; /* Center the text, optional */
+  width: 100%; /* Ensure it spans the sidebar width */
+  border-bottom: 1.5px solid $light-color;
+}
 
 @import 'base';
 
