@@ -14,15 +14,6 @@ defaultContentLanguageInSubdir = true
     languageName = 'Korean'
     title = '맥스의 블로그'
     weight = 1
-    [languages.ko.params]
-        author = "Max Kang"
-        description = "안녕하세요. 개발자 Max 입니다 🫠 심플한걸 좋아하며, 미니멀리즘을 추구(하려 노력)합니다. "
-        menu_item_separator = " - "
-
-    [[languages.ko.params.social]]
-          icon = "brand-github"
-          name = "Github"
-          url = "https://github.com/maxkangdev"
 
   [languages.en]
     contentDir = 'content/en'
@@ -32,12 +23,4 @@ defaultContentLanguageInSubdir = true
     languageName = 'English'
     title = "Max's Blog"
     weight = 2
-    [languages.en.params]
-        author = "Max Kang"
-        description = "A software engineer who believes less is more — in code, life, and everything in between."
-        menu_item_separator = " - "
 
-    [[languages.en.params.social]]
-          icon = "brand-github"
-          name = "Github"
-          url = "https://github.com/maxkangdev"

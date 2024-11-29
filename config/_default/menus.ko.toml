@@ -1,9 +1,9 @@
 [[main]]
-  name = 'Home'
-  url = '/ko'
-  weight = 10
-
-[[main]]
   name = 'Tags'
   url = '/ko/tags'
   weight = 20
+
+[[main]]
+name = 'Projects'
+url = '/ko/project'
+weight = 20

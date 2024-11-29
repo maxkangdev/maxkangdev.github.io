@@ -1,0 +1,13 @@
+author = "Max Kang"
+description = "안녕하세요. 개발자 Max 입니다 🫠 심플한걸 좋아하며, 미니멀리즘을 추구(하려 노력)합니다. "
+menu_item_separator = " - "
+
+[[social]]
+      icon = "brand-github"
+      name = "Github"
+      url = "https://github.com/maxkangdev"
+
+[[social]]
+      icon = "brand-readdotcv"
+      name = "Github"
+      url = "/ko/cv"
