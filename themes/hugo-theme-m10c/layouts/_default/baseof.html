@@ -22,7 +22,9 @@
 </head>
 <body>    <header class="app-header">
   <!--      <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>-->
-  <span class="app-header-title">{{ .Site.Title }}</span>
+  <span class="app-header-title">
+    <a href="{{ .Lang | relURL }}">{{ .Site.Title }}</a>
+  </span>
   <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium." }}</p>
   {{- with .Site.Params.social }}
   <div class="app-header-social">
