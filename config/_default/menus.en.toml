@@ -8,3 +8,8 @@
 name = 'Projects'
 url = '/en/project'
 weight = 20
+
+[[main]]
+name = 'CV'
+url = '/en/cv'
+weight = 20

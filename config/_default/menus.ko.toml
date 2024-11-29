@@ -7,3 +7,8 @@
 name = 'Projects'
 url = '/ko/project'
 weight = 20
+
+[[main]]
+name = 'CV'
+url = '/ko/cv'
+weight = 20
