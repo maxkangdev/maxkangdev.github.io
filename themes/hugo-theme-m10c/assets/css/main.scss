@@ -7,11 +7,9 @@ $primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
 $post-font: {{"Inter"}};
 
 .sidebar-language-switcher {
-  position: absolute;
-  bottom: 20px; /* Adjust as needed */
-  left: 0;
+  position: relative;
   width: 100%; /* Ensure it spans the sidebar width */
-  text-align: center; /* Center the text, optional */
+  text-align: right; /* Center the text, optional */
 }
 
 .sidebar-category {

@@ -20,72 +20,75 @@
   {{ template "_internal/opengraph.html" . }}
 
 </head>
-<body>    <header class="app-header">
-  <!--      <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>-->
-  <span class="app-header-title">
-    <a href="{{ .Lang | relURL }}">{{ .Site.Title }}</a>
-  </span>
-  <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium." }}</p>
-  {{- with .Site.Params.social }}
-  <div class="app-header-social">
-    {{ range . }}
-    <a href="{{ .url }}" target="_blank" rel="noreferrer noopener me">
-      {{ partial "icon.html" (dict "ctx" $ "name" .icon "title" .name) }}
-    </a>
-    {{ end }}
-  </div>
-  {{- end }}
-
-
-  {{- with .Site.Menus.main }}
-  <nav class="app-header-menu">
-    {{- range $key, $item := . }}
-    {{- if ne $key 0 }}
-    {{ $.Site.Params.menu_item_separator | default " - " | safeHTML }}
-    {{ end }}
-    <a class="app-header-menu-item" href="{{ $item.URL }}">{{ $item.Name }}</a>
+<body>
+<header class="app-header">
+  <div>
+    <!--      <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>-->
+    <span class="app-header-title">
+      <a href="{{ .Lang | relURL }}">{{ .Site.Title }}</a>
+    </span>
+    <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium." }}</p>
+    {{- with .Site.Params.social }}
+    <div class="app-header-social">
+      {{ range . }}
+      <a href="{{ .url }}" target="_blank" rel="noreferrer noopener me">
+        {{ partial "icon.html" (dict "ctx" $ "name" .icon "title" .name) }}
+      </a>
+      {{ end }}
+    </div>
     {{- end }}
-  </nav>
-  {{- end }}
 
-  <!-- Categories List -->
-  <div class="sidebar-category">
-    <p></p>
-    <div class="line"></div>
-    <p></p>
-    {{ range .Site.Taxonomies.categories }}
-    <div class="sidebar-category-item">
-      <a href="{{ .Page.Permalink }}" class="categories-list-item-title">
-        {{ .Page.Title | replaceRE "^\\d+\\.\\s*" "" }}  ({{ .Count }})
-      </a>
+
+    {{- with .Site.Menus.main }}
+    <nav class="app-header-menu">
+      {{- range $key, $item := . }}
+      {{- if ne $key 0 }}
+      {{ $.Site.Params.menu_item_separator | default " - " | safeHTML }}
+      {{ end }}
+      <a class="app-header-menu-item" href="{{ $item.URL }}">{{ $item.Name }}</a>
+      {{- end }}
+    </nav>
+    {{- end }}
+
+    <!-- Categories List -->
+    <div class="sidebar-category">
+      <p></p>
+      <div class="line"></div>
+      <p></p>
+      {{ range .Site.Taxonomies.categories }}
+      <div class="sidebar-category-item">
+        <a href="{{ .Page.Permalink }}" class="categories-list-item-title">
+          {{ .Page.Title | replaceRE "^\\d+\\.\\s*" "" }}  ({{ .Count }})
+        </a>
+      </div>
+      {{ end }}
     </div>
-    {{ end }}
+
   </div>
-
-  <!-- Language Switcher -->
-  <div class="sidebar-language-switcher">
-    {{ if .IsTranslated -}}
-    {{ range .Translations }}
-
-    <div>
-      <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
-        {{ .Language.LanguageName }}
-        <span class="material-symbols-outlined">translate</span>
-      </a>
+  <div>
+    <!-- Language Switcher -->
+    <div class="sidebar-language-switcher">
+      {{ if .IsTranslated -}}
+      {{ range .Translations }}
+      <div>
+        <a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
+          {{ .Language.LanguageName }}
+          <span class="material-symbols-outlined">translate</span>
+        </a>
+      </div>
+      {{ end -}}
+      {{ else -}}
+      {{ range .Site.Languages -}}
+      {{ if ne $.Site.Language.Lang .Lang }}
+      <div>
+        <a rel="alternate" href="{{ .Lang | relURL }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
+          {{ .LanguageName }}
+          <span class="material-symbols-outlined">translate</span>
+        </a></div>
+      {{ end -}}
+      {{ end -}}
+      {{ end -}}
     </div>
-
-    {{ end -}}
-    {{ else -}}
-    {{ range .Site.Languages -}}
-    {{ if ne $.Site.Language.Lang .Lang }}
-    <div>
-      <a rel="alternate" href="{{ .Lang | relURL }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
-        {{ .LanguageName }}
-        <span class="material-symbols-outlined">translate</span>
-      </a></div>
-    {{ end -}}
-    {{ end -}}
-    {{ end -}}
   </div>
 
 </header>    <main class="app-container">
