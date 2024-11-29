@@ -1,13 +1,25 @@
 {{ define "main" }}
   <article>
-    <h1>{{ .Title | replaceRE "^\\d+\\.\\s*" ""}}</h1>
+    {{ $currentLang := .Page.Lang }}
+    <h1>{{.Title }}</h1>
     <ul class="tags-list">
       {{ range .Data.Terms.ByCount }}
         <li class="tags-list-item">
             {{ partial "icon.html" (dict "ctx" $ "name" "tag") }}
             <a class="tags-list-item-title" href="{{ .Page.Permalink }}">
               ({{ .Count }})
-              {{ .Page.Title | replaceRE "^\\d+\\.\\s*" ""}}
+              {{ $titleParts := split .Page.Title "|" }}
+              {{ $length := len $titleParts }}
+              {{ $title := index $titleParts 0}}
+              {{ if gt $length 1 }}
+                {{ if eq $currentLang "en" }}
+                  {{ $title = index $titleParts 0 }}
+                {{ else if eq $currentLang "ko" }}
+                  {{ $title = index $titleParts 1 }}
+                {{ end }}
+              {{ end }}
+
+              {{ $title }}
             </a>
         </li>
       {{ end }}

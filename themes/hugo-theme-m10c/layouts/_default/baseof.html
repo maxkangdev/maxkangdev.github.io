@@ -55,10 +55,24 @@
       <p></p>
       <div class="line"></div>
       <p></p>
+      {{ $currentLang := .Lang }}
       {{ range .Site.Taxonomies.categories }}
+
+      {{ $titleParts := split .Page.Title "|" }}
       <div class="sidebar-category-item">
         <a href="{{ .Page.Permalink }}" class="categories-list-item-title">
-          {{ .Page.Title | replaceRE "^\\d+\\.\\s*" "" }}  ({{ .Count }})
+
+          {{ $length := len $titleParts }}
+          {{ $title := index $titleParts 0}}
+          {{ if gt $length 1 }}
+            {{ if eq $currentLang "en" }}
+              {{ $title = index $titleParts 0 }}
+            {{ else if eq $currentLang "ko" }}
+              {{ $title = index $titleParts 1 }}
+            {{ end }}
+          {{ end }}
+          {{ $title }}
+          ({{ .Count }})
         </a>
       </div>
       {{ end }}

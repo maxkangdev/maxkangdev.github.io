@@ -1,6 +1,22 @@
 {{ define "main" }}
   <article>
-    {{ with .Title -}}<h1>{{- . | replaceRE "^\\d+\\.\\s*" "" -}}</h1>{{- end }}
+    {{ $currentLang := .Page.Lang }}
+    {{ with .Title -}}
+    <h1>
+      {{ $titleParts := split . "|" }}
+      {{ $length := len $titleParts }}
+      {{ $title := index $titleParts 0}}
+
+      {{ if gt $length 1 }}
+        {{ if eq $currentLang "en" }}
+          {{ $title = index $titleParts 0 }}
+        {{ else if eq $currentLang "ko" }}
+          {{ $title = index $titleParts 1 }}
+        {{ end }}
+      {{ end }}
+      {{- $title -}}
+    </h1>
+    {{- end }}
     {{ with .Content -}}<div class="post-content">{{- . -}}</div>{{- end }}
     <ul class="posts-list">
       {{ range where .Paginator.Pages "Type" "!=" "page" }}

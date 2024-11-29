@@ -3,7 +3,7 @@ date = '2024-11-28T18:33:22+09:00'
 draft = false
 title = 'Why Start Blog?'
 tags = ["AI"]
-categories = ["99. thoughts"]
+categories = ["thoughts|잡담"]
 +++
 
 #### Why now?🤔 Wouldn't AI make writing obsolete? 🤖  

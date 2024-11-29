@@ -3,7 +3,7 @@ date = '2024-11-28T20:54:35+09:00'
 draft = false
 title = '[Bug] Tokenizers 설치 실패 (Feat. MacOS)'
 tags = []
-categories = ["1. 이슈 해결"]
+categories = ["Issue Resolution|이슈해결"]
 +++
 
 ## Bug
