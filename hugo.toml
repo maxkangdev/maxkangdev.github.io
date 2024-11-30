@@ -24,3 +24,16 @@ defaultContentLanguageInSubdir = true
     title = "Max's Blog"
     weight = 2
 
+[params.style]
+  darkestColor = "#242930"
+  darkColor = "#353b43"
+  lightColor = "#afbac4"
+  lightestColor = "#ffffff"
+  primaryColor = "#57cc8a"
+
+[params.style.lightMode]
+  darkestColor = "#ffffff"
+  darkColor = "#f0f0f0"
+  lightColor = "#7c7c7c"
+  lightestColor = "#242930"
+  primaryColor = "#57cc8a"

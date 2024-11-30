@@ -19,9 +19,9 @@
 
   &.active {
     .page-link {
-      color: $lightest-color;
+      color: var(--lightest-color);
       border-radius: 2em;
-      background: $primary-color;
+      background: var(--primary-color);
     }
   }
 }

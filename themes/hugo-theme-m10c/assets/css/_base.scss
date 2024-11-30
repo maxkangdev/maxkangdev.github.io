@@ -9,21 +9,21 @@ html {
 body {
   margin: 0;
   font-family: $post-font;
-  background: $dark-color;
-  color: $light-color;
+  background: var(--dark-color);
+  color: var(--light-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $lightest-color;
+  color: var(--lightest-color);
 }
 
 a {
-  color: $primary-color;
+  color: var(--primary-color);
   transition: color 0.35s;
   text-decoration: none;
 
   &:hover {
-    color: $lightest-color;
+    color: var(--lightest-color);
   }
 }
 
@@ -34,7 +34,7 @@ a {
 code {
   font-family: monospace,monospace;
   font-size: 1em;
-  color: rgba($light-color, .8);
+  color: rgba(var(--light-color), .8);
 
   // Fixes iOS font sizing anomaly
   text-size-adjust: 100%;
@@ -58,8 +58,8 @@ pre {
 }
 
 ::selection {
-  background: rgba($light-color, .25);
+  background: rgba(var(--light-color), .25);
 }
 ::-moz-selection {
-  background: rgba($light-color, .25);
+  background: rgba(var(--light-color), .25);
 }

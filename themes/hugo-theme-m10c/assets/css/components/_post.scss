@@ -1,5 +1,5 @@
 .post-title {
-  color: $lightest-color;
+  color: var(--lightest-color);
 }
 
 .post-meta > div {
@@ -23,15 +23,15 @@
   & > pre,
   .highlight > pre,
   .highlight > div {
-    border-left: 0.4em solid rgba($primary-color, .8);
+    border-left: 0.4em solid rgba(var(--primary-color), .8);
     padding: 1em 1em;
   }
 
   blockquote {
-    border-left: 0.4em solid rgba($primary-color, .8);
+    border-left: 0.4em solid rgba(var(--primary-color), .8);
     margin: 1em 0em;
     padding: .5em 1em;
-    background: $darkest-color;
+    background: var(--darkest-color);
 
     p {
       margin: .5em 0;
