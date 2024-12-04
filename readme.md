@@ -3,5 +3,6 @@
 - using [hugo-theme-m10c](https://themes.gohugo.io/themes/hugo-theme-m10c/) with some custom features 
   - Supports both English & Korean
   - Dark/Light Mode
+  - comments by [giscus](https://github.com/giscus/giscus)
 - deployed on [Github Pages](https://pages.github.com/)
 
