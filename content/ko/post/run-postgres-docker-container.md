@@ -49,7 +49,7 @@ else
 fi
 ```
 
-### 실행합니다 
+### 실행
 
 ```zsh
 chmod +x run-postgres-docker-container.sh    
@@ -78,3 +78,8 @@ Status: Downloaded newer image for postgres:13
 PostgreSQL container 'my_postgres' is running.
 ```
 
+
+### 연결
+```zsh
+docker exec -it 714d9b89bcba psql -U myuser -d mydatabase
+```

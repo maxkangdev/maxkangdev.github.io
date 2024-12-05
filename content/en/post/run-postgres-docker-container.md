@@ -76,3 +76,8 @@ Status: Downloaded newer image for postgres:13
 714d9b89bcba513267837d24892b215e88bf58ffe2426fcaba082bb638cef65a
 PostgreSQL container 'my_postgres' is running.
 ```
+
+### Connect to it
+```zsh
+docker exec -it 714d9b89bcba psql -U myuser -d mydatabase
+```
