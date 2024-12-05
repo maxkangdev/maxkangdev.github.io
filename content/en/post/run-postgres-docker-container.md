@@ -1,9 +1,9 @@
 +++
 date = '2024-12-05T10:47:50+09:00'
-draft = true
+draft = false
 title = 'How to run Postgres Docker Container'
 tags = ["docker","postgres"]
-categories = ["devops"]
+categories = ["DevOps"]
 +++
 
 ### Create shell script below and save it. 

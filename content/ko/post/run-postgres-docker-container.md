@@ -1,9 +1,9 @@
 +++
 date = '2024-12-05T10:47:50+09:00'
-draft = true
+draft = false
 title = '도커 컨테이너로 postgres 띄우는 방법'
 tags = ["docker","postgres"]
-categories = ["devops"]
+categories = ["DevOps"]
 +++
 
 ### 아래 shell 파일을 작성합니다. 
