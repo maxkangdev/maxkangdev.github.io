@@ -81,3 +81,20 @@ PostgreSQL container 'my_postgres' is running.
 ```zsh
 docker exec -it 714d9b89bcba psql -U myuser -d mydatabase
 ```
+  
+
+However, when you remove the container and restart it, you might notice that the table still exists.  
+This is because data is persisted in the associated Docker volumes.  
+
+If you want to clear the data, stop and remove the volume
+```zsh 
+docker volume ls 
+docker volume rm <volume_name>
+```
+
+
+
+
+
+
+

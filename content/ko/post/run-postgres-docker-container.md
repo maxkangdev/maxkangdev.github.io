@@ -83,3 +83,13 @@ PostgreSQL container 'my_postgres' is running.
 ```zsh
 docker exec -it 714d9b89bcba psql -U myuser -d mydatabase
 ```
+  
+근데 해당 컨테이너 껏다 켯는데도 데이터가 그대로인 경우가 있다...  
+보통 데이터의 경우 관련 볼륨에 따로 저장되기 때문이다. (쓸데없이 잘만들어가지고... 😝)  
+  
+데이터까지 지우려면 볼륨까지 없애고 다시 시작해라 :) 
+
+```zsh 
+docker volume ls 
+docker volume rm <volume_name>
+```
