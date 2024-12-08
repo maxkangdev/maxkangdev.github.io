@@ -56,6 +56,20 @@ $post-font: "Inter";
   border-bottom: 1.5px solid var(--light-color);
 }
 
+.copy-icon {
+  color: var(--dark-color);
+  font-size: 18px;
+  display: inline-block;
+}
+
+.copy-icon:hover {
+  color: var(--light-color);
+}
+
+.copy-icon:active {
+  color: var(--light-color);
+}
+
 @import 'base';
 
 @import 'components/app';
