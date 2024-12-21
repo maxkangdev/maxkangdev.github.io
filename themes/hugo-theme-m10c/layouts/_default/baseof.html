@@ -3,6 +3,8 @@
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 <script src="/toggle.js"></script>
 <script src="/copy-code.js"></script>
+<script src="/save-scroll-position.js"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
 
@@ -99,7 +101,7 @@
 
       {{ if .IsTranslated -}}
         {{ range .Translations }}
-        <a class="language-switcher" rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
+        <a id="language-switcher" class="language-switcher" rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
           <i class="fas fa-language"></i>
         </a>
         {{ end -}}
