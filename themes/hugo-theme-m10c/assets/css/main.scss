@@ -23,20 +23,35 @@ $post-font: "Inter";
   width: 100%; /* Ensure it spans the sidebar width */
   justify-content: space-between;
   align-items: center;
-
-  border-radius: 5px;
-  padding: 0rem 1rem;
-  background-color: var(--dark-color);
 }
 
 .language-switcher {
+  font-size: 2em;
+  border-radius: 5px;
+  padding: 0rem 0.5rem;
+  background-color: var(--dark-color);
+  transition: 0.5s;
+
+  &:hover {
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 0rem 1rem;
+    background-color: var(--dark-color);
+  }
 }
 
 .theme-toggle {
   font-size: 2em;
+  border-radius: 5px;
+  padding: 0rem 0.7rem;
+  background-color: var(--dark-color);
+  transition: 0.5s;
+
   &:hover {
-    transition: 0.9s;
-    transform: rotateZ(360deg);
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 0rem 1rem;
+    background-color: var(--dark-color);
   }
 }
 

@@ -100,8 +100,7 @@
       {{ if .IsTranslated -}}
         {{ range .Translations }}
         <a class="language-switcher" rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
-          {{ .Language.LanguageName }}
-          <span class="material-symbols-outlined">translate</span>
+          <i class="fas fa-language"></i>
         </a>
         {{ end -}}
       {{ else -}}
@@ -109,7 +108,7 @@
           {{ if ne $.Site.Language.Lang .Lang }}
             <a class="language-switcher" rel="alternate" href="{{ .Lang | relURL }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">
               {{ .LanguageName }}
-              <span class="material-symbols-outlined">translate</span>
+              <i class="fas fa-language"></i>
             </a>
           {{ end -}}
         {{ end -}}

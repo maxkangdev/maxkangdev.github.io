@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Apply saved theme and icon
   document.documentElement.classList.toggle("light-mode", currentTheme === "light");
-  themeIcon.classList.toggle("fa-moon", currentTheme === "dark");
-  themeIcon.classList.toggle("fa-sun", currentTheme === "light");
 
   function changeGiscusTheme (theme) {
     function sendMessage(message) {
@@ -28,8 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const newTheme = isLightMode ? "light" : "dark";
     localStorage.setItem("theme", newTheme);
 
-    themeIcon.classList.toggle("fa-moon", !isLightMode);
-    themeIcon.classList.toggle("fa-sun", isLightMode);
 
     // Update Giscus theme
     changeGiscusTheme(newTheme);
