@@ -83,5 +83,5 @@ categories = ["devops"]
   - > **Why Optional?** kube-proxy uses the operating system packet filtering layer if there is one and it's available. Otherwise, kube-proxy forwards the traffic itself. If you use a network plugin that implements packet forwarding for Services by itself, and providing equivalent behavior to kube-proxy, then you do not need to run kube-proxy on the nodes in your cluster.
     
 Reference
-https://kubernetes.io/docs/concepts/architecture/#network-plugins
+https://kubernetes.io/docs/home/
 https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/

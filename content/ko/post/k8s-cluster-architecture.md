@@ -95,5 +95,5 @@ categories = ["devops"]
     > 만약 서비스에 대해 패킷 전달을 자체적으로 구현하고 kube-proxy와 동등한 동작을 제공하는 네트워크 플러그인을 사용하는 경우, 클러스터의 노드에서 kube-proxy를 실행할 필요가 없음.
 
 Reference
-https://kubernetes.io/docs/concepts/architecture/#network-plugins
+https://kubernetes.io/docs/home/
 https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/
