@@ -2,7 +2,7 @@
 date = '2024-12-18T15:14:49+09:00'
 draft = false
 title = '[Kubernetes] Cluster Architecture'
-tags = ["kubernetes","devops"]
+tags = ["kubernetes"]
 categories = ["devops"]
 +++
 

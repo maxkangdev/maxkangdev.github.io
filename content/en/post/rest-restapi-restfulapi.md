@@ -2,7 +2,7 @@
 date = '2024-12-04T10:17:48+09:00'
 draft = false
 title = 'Rest, Restapi, Restfulapi, and their differences'
-tags = ["rest","network"]
+tags = ["rest"]
 categories = ["dev|개발"]
 +++
 

@@ -2,7 +2,7 @@
 date = '2024-12-05T10:57:12+09:00'
 draft = false
 title = 'UV를 사용한 FastAPI 프로젝트 설정'
-tags = ["fastapi","uv","python"]
+tags = ["fastapi","uv"]
 categories = ["dev|개발"]
 +++
 

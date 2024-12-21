@@ -2,7 +2,7 @@
 date = '2024-12-21T10:57:31+09:00'
 draft = false
 title = '[Kubernetes] Pod, ReplicaSet, and Deployment'
-tags = ["kubernetes","devops"]
+tags = ["kubernetes"]
 categories = ["devops"]
 +++
 
