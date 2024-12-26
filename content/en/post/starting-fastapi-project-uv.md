@@ -61,7 +61,7 @@ uv add fastapi uvicorn
 
 ### (Optional) Configure Ruff for Linting & Formatting
 ```zsh
-uv add ruff 
+uv add ruff --dev # Add ruff as dev dependencies 
 
 uv run ruff check # lint
 uv run ruff format . # format

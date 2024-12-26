@@ -55,7 +55,7 @@ uv add fastapi uvicorn
 
 ### (Optional) Ruff를 사용한 린팅 및 포매팅 설정
 ```zsh
-uv add ruff 
+uv add ruff --dev # Add ruff as dev dependencies 
 
 uv run ruff check # 린트
 uv run ruff format . # 포매팅
