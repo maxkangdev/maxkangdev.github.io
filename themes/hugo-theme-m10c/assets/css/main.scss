@@ -29,13 +29,13 @@ $post-font: "Inter";
     border-radius: 5px;
     padding: 0rem 0.5rem;
     background-color: var(--dark-color);
-    transition: 0.5s;
+    transition: 0.35s;
 
     &:hover {
-      transition: 0.5s;
-      border-radius: 5px;
-      padding: 0rem 1rem;
-      background-color: var(--dark-color);
+      //transition: 0.5s;
+      //border-radius: 5px;
+      //padding: 0rem 1rem;
+      background-color: var(--primary-color);
     }
   }
 }
