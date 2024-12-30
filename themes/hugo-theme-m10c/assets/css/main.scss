@@ -76,6 +76,22 @@ $post-font: "Inter";
   color: var(--light-color);
 }
 
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid var(--light-color);
+  padding: 8px;
+}
+
+th {
+  background-color: var(--dark-color);
+  text-align: left;
+}
+
 @import 'base';
 
 @import 'components/app';
