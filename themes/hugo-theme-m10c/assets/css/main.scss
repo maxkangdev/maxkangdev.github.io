@@ -92,6 +92,51 @@ th {
   text-align: left;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.post-toc {
+  font-size: 0.9em;
+  position: sticky;
+  top: 20px; /* Distance from the top of the viewport */
+  max-height: calc(100vh - 40px); /* Prevent overflow */
+  overflow-y: auto; /* Scroll if content exceeds max height */
+  border-left: 1px solid #ddd;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.post-toc ul {
+  list-style: none; /* Remove bullet points */
+  padding-left: 0;  /* Remove default padding */
+}
+
+.post-toc ul ul {
+  padding-left: 10px; /* Add indentation for nested lists */
+}
+
+.post-toc ul ul ul {
+  padding-left: 10px; /* Further indentation for deeper ledvels */
+}
+
+.post-toc a {
+  font-size: 0.9em;
+
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+.post-toc a:hover {
+  color: var(--primary-color);
+}
+
+.post-toc a.active {
+  color: var(--primary-color);
+  border-left: 1px solid var(--primary-color);
+  padding-left: 3px;
+}
+
 @import 'base';
 
 @import 'components/app';

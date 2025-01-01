@@ -39,6 +39,14 @@
   font-weight: bold;
 }
 
+.app-right-sidebar {
+  padding: 0.5em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 @media (min-width: 940px) {
   .app-header {
     position: fixed;
@@ -48,8 +56,20 @@
     min-height: 100vh;
   }
 
+  /* App container adjustments */
   .app-container {
-    max-width: 65rem;
+    max-width: 90rem;
     margin-left: 20rem;
+    margin-right: 20rem;
   }
+
+  .app-right-sidebar {
+    position: fixed;
+    margin-top: 5rem;
+    top: 0;
+    right: 0;
+    width: 20rem;
+    min-height: 100vh;
+  }
+
 }

@@ -4,6 +4,7 @@
 <script src="/toggle.js"></script>
 <script src="/copy-code.js"></script>
 <script src="/save-scroll-position.js"></script>
+<script src="/toc-highlight.js"></script>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
@@ -118,9 +119,20 @@
     </div>
   </div>
 
-</header>    <main class="app-container">
+</header>
+<main class="app-container">
   {{ block "main" . }}
   {{ .Content }}
   {{ end }}
 </main>
+
+<aside class="app-right-sidebar">
+  {{ if and (.IsPage) (eq .Type "post") }}
+  <div class="post-toc">
+    Contents
+    {{ .TableOfContents }}
+  </div>
+  {{ end }}
+</aside>
+
 </body></html>
