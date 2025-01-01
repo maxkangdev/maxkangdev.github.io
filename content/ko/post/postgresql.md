@@ -5,20 +5,21 @@ title = '[Database] Postgresql Cheatsheet'
 tags = ["postgresql"]
 categories = ["database"]
 +++
+### Cheatsheet
 
-### Cheatsheet 
+```python
+psql -U username    Login  
 
-`psql -U username` Login
+\c db_name          Connect to db  
+\l                  List all db  
+\du                 List all users  
+\dn                 List all schemas  
+\q                  Quit  
 
-`\c db_name` connect to db
-`\l` list all db
-`\du` list all users
-`\dn` list all schemas
-`\q` quit
+\dt                 List all tables  
+\dt+                List all tables (with more info)  
+\dt table_name      Get detailed info on table  
 
-`\dt` list all tables
-`\dt+` list all tables (with more info)
-`\dt table_name` get detailed info on table
-
-`\df` list all stored procedures
-`\db` list all views dh
+\df                 List all stored procedures  
+\db                 List all views
+```
