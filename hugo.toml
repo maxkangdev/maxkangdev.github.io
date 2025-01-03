@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://maxkangdev.github.io'
 title = 'My New Hugo Site'
 theme = "hugo-theme-m10c"
 googleAnalytics = "G-KHH0NVNV32"
