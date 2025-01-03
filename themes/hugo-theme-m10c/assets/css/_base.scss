@@ -79,8 +79,10 @@ pre {
 }
 
 ::selection {
-  background: rgba(var(--light-color), .25);
+  background: var(--primary-color);
+  color: var(--dark-color);
 }
 ::-moz-selection {
-  background: rgba(var(--light-color), .25);
+  background: var(--primary-color);
+  color: var(--dark-color);
 }
