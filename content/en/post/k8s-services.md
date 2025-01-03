@@ -14,7 +14,7 @@ The post goes in this order
 - Multi Node Kubernetes Cluster
 - Kubernetes Service
 
-### Single Node Kubernetes Cluster**
+### Single Node Kubernetes Cluster
 
 {{< figure src="/image/k8s-service-single-node.png" alt="alt" width="600" height="300" >}}
 
