@@ -41,4 +41,11 @@
   img {
     max-width: 100%;
   }
+
+  hr {
+    border: none;
+    height: 1px; /* Makes line thinner */
+    background-color: var(--primary-color); /* Changes color to blue */
+    width:100%
+  }
 }

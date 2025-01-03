@@ -15,6 +15,21 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--lightest-color);
+  margin: 0;
+}
+
+h2 {
+  color: var(--lightest-color);
+  margin: 0;
+}
+h2::after {
+    content: '';
+    display: block;
+    width: 100%; /* Adjust the width of the <hr> */
+    height: 1px; /* Thickness of the line */
+    background-color: var(--primary-color); /* Color of the line */
+    margin: auto; /* Centers the line and adds spacing above */
+    margin-top: 0.5rem;
 }
 
 a {
