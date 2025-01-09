@@ -195,7 +195,7 @@ curl -X 'GET' \
 
 ## 데이터베이스(Postgresql) 연결
 
-먼저 [도커 컨테이너로 postgres 띄우는 방법](run-postgres-docker-container.md)를 참조해서 도커로 postgresql을 띄우자.  
+먼저 [도커 컨테이너로 postgres 띄우는 방법](run-postgresl-docker-container)를 참조해서 도커로 postgresql을 띄우자.  
 
 패키지 설치 
 ```zsh 

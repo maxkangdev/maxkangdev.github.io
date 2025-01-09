@@ -1,19 +1,19 @@
 +++
 date = '2024-12-05T10:47:50+09:00'
 draft = false
-title = 'How to run Postgres Docker Container'
-tags = ["docker","postgres"]
+title = 'How to run postgresql Docker Container'
+tags = ["docker","postgresql"]
 categories = ["DevOps"]
 +++
 
 ### Create shell script below and save it. 
 
-`run-postgres-docker-container.sh`
+`run-postgresql-docker-container.sh`
 ```sh
 #!/bin/bash
 
 # Variables
-CONTAINER_NAME="my_postgres"
+CONTAINER_NAME="my_postgresql"
 POSTGRES_USER="myuser"
 POSTGRES_PASSWORD="mypassword"
 POSTGRES_DB="mydatabase"

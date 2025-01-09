@@ -176,7 +176,7 @@ Call `/settings` API and verify the response.
 
 ## Connecting to PostgreSQL
 
-Refer to [this guide](run-postgres-docker-container.md) for running PostgreSQL in a Docker container.
+Refer to [this guide](run-postgresl-docker-container) for running PostgreSQL in a Docker container.
 
  Installing Database Packages
 
