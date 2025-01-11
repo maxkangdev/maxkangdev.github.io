@@ -17,7 +17,7 @@ categories = ["devops"]
 
 ### 단일 노드 클러스터 네트워크
 
-{{< figure src="/image/k8s-service-single-node.png" alt="alt" width="600" height="300" >}}
+{{< figure src="k8s-service-single-node.png" alt="alt" width="600" height="300" >}}
 
 - 해당 노드 접속시(ssh등) 에 사용되는 IP 주소 (ex. 192.168.1.2)가 있음.
 
@@ -39,7 +39,7 @@ categories = ["devops"]
 
 ### 다중 노드 클러스터 
 
-{{< figure src="/image/k8s-service-multi-node.png" alt="alt" width="600" height="300" >}}
+{{< figure src="k8s-service-multi-node.png" alt="alt" width="600" height="300" >}}
 
 - 단일 노드와 동일하게, 각 노드는 IP 주소를 가지고 있음 (e.g., 192.168.1.2 and 192.168.1.3)
 - 단일 노드와 동일하게, 각 노드는 내부 네트워크가 있음. 하지만, 내부 네트워크 IP range 가 똑같음 (Ex. 둘다 10.244.0.0)
@@ -98,7 +98,7 @@ categories = ["devops"]
 - node의 포트를 아래 범위에서만 사용가능함
   - 300000 - 32767
 
-{{< figure src="/image/k8s-nodeport.png" alt="alt" width="400" height="200" >}}
+{{< figure src="k8s-nodeport.png" alt="alt" width="400" height="200" >}}
 
 ```yaml
 apiVersion: v1
@@ -126,7 +126,7 @@ spec:
 - 따로 뭐 할거 없음. k8s 서비스가 다 알아서 처리해줌. 
 - 여러개의 노드중 아무 IP사용해도 다 접속 가능함. 
 
-{{< figure src="/image/k8s-nodeport-2.png" alt="alt" width="600" height="300" >}}
+{{< figure src="k8s-nodeport-2.png" alt="alt" width="600" height="300" >}}
 
 
 ### ClusterIP
@@ -156,7 +156,7 @@ spec:
 - 직접 제공하거나 클라우드 제공자와 함께 사용해야함. 아래 그림처럼 Loadbalancer는 NodePort와 다르게 k8s 외부 환경에 위치하기 때문임. 
 - 만약 환경이 지원하지 않는 경우 kind를 LoadBalancer로 지정하면, 단순히 NodePort로 변환됨
 
-{{< figure src="/image/k8s-loadbalancer.png" alt="alt" width="600" height="300" >}}
+{{< figure src="k8s-loadbalancer.png" alt="alt" width="600" height="300" >}}
 
 
 #### 그럼 실질적으로 NodePort 랑 Load Balancer 차이가 뭐임... 아직 좀 헷갈리는디? 😓

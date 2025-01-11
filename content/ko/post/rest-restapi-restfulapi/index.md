@@ -69,7 +69,7 @@ REST 아키텍쳐가 나타나고, REST API라는 개념이 생기면서 널리 
 이쯤에서 나타나 한마디 하는 software guru....
 > Is your so called RestAPI restful ?!  
 > ...당신은 지금 전혀 REST를 하고 있지않아...  
-> ![](/image/swing.png)
+> ![](swing.png)
 
 *깨알 영어 상식*  
 `-ful`  full of   

@@ -9,7 +9,7 @@ categories = ["devops"]
 - **k8s 클러스터**
   - 컨테이너화된 애플리케이션을 실행하는 머신(노드)의 집합
 
-> ![](/image/kubernetes-cluster-components.png)
+> ![](kubernetes-cluster-components.png)
 
 - **Control Plane**
   - k8s 클러스터의 전반적인 상태 및 작업을 관리하는 중심 구성 요소로 다음과 같은 작업을 수행함 

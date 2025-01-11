@@ -16,7 +16,7 @@ The post goes in this order
 
 ### Single Node Kubernetes Cluster
 
-{{< figure src="/image/k8s-service-single-node.png" alt="alt" width="600" height="300" >}}
+{{< figure src="k8s-service-single-node.png" alt="alt" width="600" height="300" >}}
 
 - The node has an IP address (e.g., 192.168.1.2), which is used for accessing the node or SSH into it.
 
@@ -38,7 +38,7 @@ But using this internal IP to communicate is not a good idea. **WHY?**
 
 ### Multi Node Kubernetes Cluster
 
-{{< figure src="/image/k8s-service-multi-node.png" alt="alt" width="600" height="300" >}}
+{{< figure src="k8s-service-multi-node.png" alt="alt" width="600" height="300" >}}
 
 - Two nodes with IP addresses (e.g., 192.168.1.2 and 192.168.1.3).
 - Each node has a POD attached to an internal network with the same IP range (e.g., 10.244.0.0)
@@ -97,7 +97,7 @@ There are three types of services that are most commonly used
 - Valid Range
   - 300000 - 32767
 
-{{< figure src="/image/k8s-nodeport.png" alt="alt" width="400" height="200" >}}
+{{< figure src="k8s-nodeport.png" alt="alt" width="400" height="200" >}}
 
 ```yaml
 apiVersion: v1
@@ -124,7 +124,7 @@ spec:
 - no additional config needed. Service automatically takes care of this
 - pods can be accessed via any IP of those nodes as shown below
 
-{{< figure src="/image/k8s-nodeport-2.png" alt="alt" width="600" height="300" >}}
+{{< figure src="k8s-nodeport-2.png" alt="alt" width="600" height="300" >}}
 
 
 ### ClusterIP
@@ -154,7 +154,7 @@ spec:
 - You must provide one or use with a cloud provider. As shown below, it is outside k8s.
   - If you specify kind as LoadBalancer when environment does not support it, it will simply convert to NodePort.
 
-{{< figure src="/image/k8s-loadbalancer.png" alt="alt" width="600" height="300" >}}
+{{< figure src="k8s-loadbalancer.png" alt="alt" width="600" height="300" >}}
 
 #### What is the difference between NodePort and Load Balancer? 😓
 | **Node Port** | **Load Balancer** |

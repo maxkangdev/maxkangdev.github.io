@@ -68,7 +68,7 @@ For instance, if session data is being passed during login, doesn’t that viola
 Enter a software guru to settle the debate...
 > Is your so-called REST API actually **restful**?  
 > 
-> ![](/image/swing.png)  
+> ![](swing.png)  
 > (You are not swinging at all...)  
 > You're not doing REST at all... 
 

@@ -11,7 +11,7 @@ categories = ["devops"]
   - A set of machines (nodes) that run containerized applications managed by Kubernetes
 
 
-> ![](/image/kubernetes-cluster-components.png)
+> ![](kubernetes-cluster-components.png)
 
 
 - **Control Plane**
