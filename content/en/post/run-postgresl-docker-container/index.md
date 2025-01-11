@@ -1,10 +1,13 @@
-+++
-date = '2024-12-05T10:47:50+09:00'
-draft = false
-title = 'How to run postgresql Docker Container'
-tags = ["docker","postgresql"]
-categories = ["DevOps"]
-+++
+---
+categories:
+- DevOps
+date: "2024-12-05T10:47:50+09:00"
+draft: false
+tags:
+- docker
+- postgresql
+title: How to run postgresql Docker Container
+---
 
 ### Create shell script below and save it. 
 

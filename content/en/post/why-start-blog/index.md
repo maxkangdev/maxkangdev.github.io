@@ -1,10 +1,12 @@
-+++
-date = '2024-11-28T18:33:22+09:00'
-draft = false
-title = 'Why Start Blog?'
-tags = ["AI"]
-categories = ["thoughts|잡담"]
-+++
+---
+categories:
+- thoughts|잡담
+date: "2024-11-28T18:33:22+09:00"
+draft: false
+tags:
+- AI
+title: Why Start Blog?
+---
 
 #### Why now?🤔 Wouldn't AI make writing obsolete? 🤖  
 

@@ -1,10 +1,13 @@
-+++
-date = '2024-12-27T20:39:50+09:00'
-draft = false
-title = '[Git Action] kubectl config error'
-tags = ['kubernetes','git action']
-categories = ["Issue Resolution|이슈해결"]
-+++
+---
+categories:
+- Issue Resolution|이슈해결
+date: "2024-12-27T20:39:50+09:00"
+draft: false
+tags:
+- kubernetes
+- git action
+title: '[Git Action] kubectl config error'
+---
 
 In order to run `kubectl` in git action, you can use [actions-hub/kubectl](https://github.com/actions-hub/kubectl) as shown below.  
 

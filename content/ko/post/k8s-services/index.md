@@ -1,10 +1,12 @@
-+++
-date = '2024-12-28T10:13:46+09:00'
-draft = false
-title = '[Kubernetes] Services'
-tags = ["kubernetes"]
-categories = ["devops"]
-+++
+---
+categories:
+- devops
+date: "2024-12-28T10:13:46+09:00"
+draft: false
+tags:
+- kubernetes
+title: '[Kubernetes] Services'
+---
 
 
 ## k8s 네트워크 기본지식

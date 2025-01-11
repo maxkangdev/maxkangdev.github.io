@@ -1,10 +1,12 @@
-+++
-date = '2025-01-02T10:44:29+09:00'
-draft = false
-title = '[Kubernetes] What is TLS Certificate?'
-tags = ["kubernetes"]
-categories = ["devops"]
-+++
+---
+categories:
+- devops
+date: "2025-01-02T10:44:29+09:00"
+draft: false
+tags:
+- kubernetes
+title: '[Kubernetes] What is TLS Certificate?'
+---
 
 In order to understand TLS Certificate, you first need to understand the following
 - Symmetric Encryption

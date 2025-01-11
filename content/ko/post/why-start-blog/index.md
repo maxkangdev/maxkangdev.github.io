@@ -1,10 +1,12 @@
-+++
-date = '2024-11-28T18:33:45+09:00'
-draft = false
-title = '왜 블로그를 해야하나...'
-tags = ["AI"]
-categories = ["thoughts|잡담"]
-+++
+---
+categories:
+- thoughts|잡담
+date: "2024-11-28T18:33:45+09:00"
+draft: false
+tags:
+- AI
+title: 왜 블로그를 해야하나...
+---
 
 어차피 나중에 AI가 다 써줄텐데뭐...🤖 이제 쓰기엔 조금 늦지 않음? 🤔  
 

@@ -1,10 +1,14 @@
-+++
-date = '2025-01-07T21:05:57+09:00'
-draft = false
-title = 'Implementing a Simple API Server with FastAPI, SQLModel, and UV'
-tags = ["fastapi","uv","sqlmodel"]
-categories = ["dev|개발"]
-+++
+---
+categories:
+- dev|개발
+date: "2025-01-07T21:05:57+09:00"
+draft: false
+tags:
+- fastapi
+- uv
+- sqlmodel
+title: Implementing a Simple API Server with FastAPI, SQLModel, and UV
+---
 
 Let's create a skeleton code for an API server using the following tech stack:
 - [uv](https://docs.astral.sh/uv/)

@@ -1,10 +1,11 @@
-+++
-date = '2024-11-28T20:54:35+09:00'
-draft = false
-title = '[Bug] Failed to Install Tokenizers (Feat. MacOS)'
-tags = []
-categories = ["Issue Resolution|이슈해결"]
-+++
+---
+categories:
+- Issue Resolution|이슈해결
+date: "2024-11-28T20:54:35+09:00"
+draft: false
+tags: []
+title: '[Bug] Failed to Install Tokenizers (Feat. MacOS)'
+---
 
 ## Bug
 Following error occured when attempting to install `tokenizers` even after installing rust compiler. 🥲

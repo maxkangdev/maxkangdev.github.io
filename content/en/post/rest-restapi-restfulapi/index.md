@@ -1,10 +1,12 @@
-+++
-date = '2024-12-04T10:17:48+09:00'
-draft = false
-title = 'Rest, Restapi, Restfulapi, and their differences'
-tags = ["rest"]
-categories = ["dev|개발"]
-+++
+---
+categories:
+- dev|개발
+date: "2024-12-04T10:17:48+09:00"
+draft: false
+tags:
+- rest
+title: Rest, Restapi, Restfulapi, and their differences
+---
 
 Since there aren’t many clear and concise explanations regarding the difference among them, I decided to organize it myself.  
 I hope this post helps clear up any confusion 😆

@@ -1,10 +1,12 @@
-+++
-date = '2024-12-09T21:03:13+09:00'
-draft = false
-title = 'Restapi 규칙'
-tags = ["rest"]
-categories = ["dev|개발"]
-+++
+---
+categories:
+- dev|개발
+date: "2024-12-09T21:03:13+09:00"
+draft: false
+tags:
+- rest
+title: Restapi 규칙
+---
 
 최근 Rest, RestAPI, RestfulAPI의 차이점에 대해서 아래 글을 작성했었다.
 [Rest, Restapi, Restfulapi 차이점](/ko/post/rest-restapi-restfulapi)

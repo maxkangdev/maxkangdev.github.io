@@ -1,10 +1,12 @@
-+++
-date = '2024-12-21T10:57:31+09:00'
-draft = false
-title = '[Kubernetes] Pod, ReplicaSet, and Deployment'
-tags = ["kubernetes"]
-categories = ["devops"]
-+++
+---
+categories:
+- devops
+date: "2024-12-21T10:57:31+09:00"
+draft: false
+tags:
+- kubernetes
+title: '[Kubernetes] Pod, ReplicaSet, and Deployment'
+---
 
 k8s도 도커같은 컨테이너 엔진을 사용해서 어플리케이션들을 띄움.  
 근데 단순하게 워커 노드에 냅다 바로 띄우는게 아니라 Pod 라는 단위에 감싸서 띄움. 

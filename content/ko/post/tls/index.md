@@ -1,10 +1,12 @@
-+++
-date = '2025-01-02T10:44:29+09:00'
-draft = false
-title = '[Kubernetes] TLS Certificate란?'
-tags = ["kubernetes"]
-categories = ["devops"]
-+++
+---
+categories:
+- devops
+date: "2025-01-02T10:44:29+09:00"
+draft: false
+tags:
+- kubernetes
+title: '[Kubernetes] TLS Certificate란?'
+---
 
 TLS Certificate 이 뭔지 제대로 이해하려면, 아래 개념부터 알아야됨   
 - 대칭 암호화

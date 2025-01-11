@@ -1,10 +1,12 @@
-+++
-date = '2024-12-18T15:14:49+09:00'
-draft = false
-title = '[Kubernetes] Cluster Architecture'
-tags = ["kubernetes"]
-categories = ["devops"]
-+++
+---
+categories:
+- devops
+date: "2024-12-18T15:14:49+09:00"
+draft: false
+tags:
+- kubernetes
+title: '[Kubernetes] Cluster Architecture'
+---
 
 
 - **k8s Cluster**

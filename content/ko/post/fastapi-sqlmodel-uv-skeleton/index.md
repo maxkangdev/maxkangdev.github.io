@@ -1,10 +1,14 @@
-+++
-date = '2025-01-07T21:05:57+09:00'
-draft = false
-title = 'FastAPI, SQLModel, UV를 이용한 간단한 API 서버 구현'
-tags = ["fastapi","uv","sqlmodel"]
-categories = ["dev|개발"]
-+++
+---
+categories:
+- dev|개발
+date: "2025-01-07T21:05:57+09:00"
+draft: false
+tags:
+- fastapi
+- uv
+- sqlmodel
+title: FastAPI, SQLModel, UV를 이용한 간단한 API 서버 구현
+---
 
 다음 기술스택들을 사용해서 API서버 skeleton 코드를 짜보자 :) 
 - [uv](https://docs.astral.sh/uv/) 

@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-layout: "single" 
+layout: single
+title: Projects
 ---
 
 In Progress 

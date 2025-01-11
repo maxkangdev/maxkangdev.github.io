@@ -1,10 +1,12 @@
-+++
-date = '2024-12-21T16:38:43+09:00'
-draft = false
-title = '[Kubernetes] Commands & Arguments'
-tags = ["kubernetes"]
-categories = ["devops"]
-+++
+---
+categories:
+- devops
+date: "2024-12-21T16:38:43+09:00"
+draft: false
+tags:
+- kubernetes
+title: '[Kubernetes] Commands & Arguments'
+---
 
 
 

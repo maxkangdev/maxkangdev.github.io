@@ -1,10 +1,12 @@
-+++
-date = '2025-01-01T11:31:42+09:00'
-draft = false
-title = '[Database] Postgresql Cheatsheet'
-tags = ["postgresql"]
-categories = ["database"]
-+++
+---
+categories:
+- database
+date: "2025-01-01T11:31:42+09:00"
+draft: false
+tags:
+- postgresql
+title: '[Database] Postgresql Cheatsheet'
+---
 ### Cheatsheet 
 
 ```python

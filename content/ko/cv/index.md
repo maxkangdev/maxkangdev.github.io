@@ -1,6 +1,6 @@
 ---
-title: "CV"
-layout: "single" 
+layout: single
+title: CV
 ---
 
 In Progress 

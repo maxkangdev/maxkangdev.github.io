@@ -1,10 +1,12 @@
-+++
-date = '2024-12-09T21:03:13+09:00'
-draft = false
-title = 'Restapi Rules'
-tags = ["rest"]
-categories = ["dev|개발"]
-+++
+---
+categories:
+- dev|개발
+date: "2024-12-09T21:03:13+09:00"
+draft: false
+tags:
+- rest
+title: Restapi Rules
+---
 
 
 I have written a post about the difference among `REST`, `RestAPI`, and `RestfulAPI` this post.  

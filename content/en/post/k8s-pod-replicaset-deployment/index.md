@@ -1,10 +1,12 @@
-+++
-date = '2024-12-21T10:57:31+09:00'
-draft = false
-title = '[Kubernetes] Pod, ReplicaSet, and Deployment'
-tags = ["kubernetes"]
-categories = ["devops"]
-+++
+---
+categories:
+- devops
+date: "2024-12-21T10:57:31+09:00"
+draft: false
+tags:
+- kubernetes
+title: '[Kubernetes] Pod, ReplicaSet, and Deployment'
+---
 
 When you run an application, you have to use container such as docker.  
 However, k8s does not directly deploy containers directly on the worker nodes.  
