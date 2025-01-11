@@ -1,6 +1,6 @@
 +++
 date = '2025-01-07T21:05:57+09:00'
-draft = true
+draft = false
 title = 'FastAPI, SQLModel, UV를 이용한 간단한 API 서버 구현'
 tags = ["fastapi","uv","sqlmodel"]
 categories = ["dev|개발"]
