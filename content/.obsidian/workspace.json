@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9437bfbc1c06f37f",
+        "id": "cde30b39becb65bc",
         "type": "tabs",
         "children": [
           {
-            "id": "fb043144dfbf2464",
+            "id": "ef916822cde00176",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Post Template.md",
+                "file": "en/post/airflow-logical-date/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Post Template"
+              "title": "index"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Post Template.md",
+                "file": "en/post/airflow-logical-date/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Post Template"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Post Template.md",
+                "file": "en/post/airflow-logical-date/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Post Template"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Post Template.md"
+                "file": "en/post/airflow-logical-date/index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Post Template"
+              "title": "Outline of index"
             }
           }
         ]
@@ -163,18 +163,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fb043144dfbf2464",
+  "active": "ef916822cde00176",
   "lastOpenFiles": [
-    "Untitled.md",
+    "ko/post/airflow-logical-date/index.md",
+    "en/post/airflow-logical-date/index.md",
+    "en/post/airflow-logical-date",
     "templates/Post Template.md",
+    "ko/post/Untitled.md",
+    "ko/post/airflow-logical-date",
+    "en/post/k8s-commands-arguments/index.md",
+    "en/post/k8s-cluster-architecture/index.md",
+    "Untitled.md",
     "ko/post/test/index.md.md",
     "Untitled 1.md",
     "ko/post/test",
-    "ko/post/Untitled.md",
     "ko/post/failed-to-install-tokenizers/index.md",
     "en/post/fastapi-sqlmodel-uv-skeleton/index.md",
     "run.py",
-    "en/post/k8s-cluster-architecture/index.md",
     "en/post/k8s-cluster-architecture/kubernetes-cluster-components.png",
     "en/post/failed-to-install-tokenizers/index.md",
     "templates"
