@@ -1,9 +1,9 @@
 +++
 date = '2025-01-07T21:05:57+09:00'
-draft = true
+draft = false
 title = 'Implementing a Simple API Server with FastAPI, SQLModel, and UV'
-tags = ["fastapi", "uv", "sqlmodel"]
-categories = ["dev"]
+tags = ["fastapi","uv","sqlmodel"]
+categories = ["dev|개발"]
 +++
 
 Let's create a skeleton code for an API server using the following tech stack:
