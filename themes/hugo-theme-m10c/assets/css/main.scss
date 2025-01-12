@@ -6,6 +6,8 @@
   --primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
 }
 
+$primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
+
 /* Light Mode Overrides */
 :root.light-mode {
   --darkest-color: {{ .Site.Params.style.lightMode.darkestColor | default "#ffffff" }};
@@ -28,14 +30,16 @@ $post-font: "Inter";
     font-size: 2em;
     border-radius: 5px;
     padding: 0rem 0.5rem;
-    background-color: var(--dark-color);
+    background: rgba($primary-color, 0.2);
     transition: 0.35s;
 
     &:hover {
       //transition: 0.5s;
       //border-radius: 5px;
       //padding: 0rem 1rem;
-      background-color: var(--primary-color);
+      background: rgba($primary-color, 0.4);
+      color: var(--primary-color);
+
     }
   }
 }
