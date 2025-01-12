@@ -1,3 +1,7 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "defaultViewMode": "source",
+  "readableLineLength": false,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./"
 }
