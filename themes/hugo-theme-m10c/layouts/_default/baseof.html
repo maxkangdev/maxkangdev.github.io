@@ -71,8 +71,8 @@
       {{ range .Site.Taxonomies.categories }}
 
       {{ $titleParts := split .Page.Title "|" }}
-      <div class="sidebar-category-item">
         <a href="{{ .Page.Permalink }}" class="categories-list-item-title">
+          <div class="sidebar-category-item">
 
           {{ $length := len $titleParts }}
           {{ $title := index $titleParts 0}}
@@ -85,8 +85,9 @@
           {{ end }}
           {{ $title }}
           ({{ .Count }})
+          </div>
+
         </a>
-      </div>
       {{ end }}
     </div>
 

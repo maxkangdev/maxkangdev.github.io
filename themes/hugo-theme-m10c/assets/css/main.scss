@@ -6,6 +6,10 @@
   --primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
 }
 
+$darkest-color: {{ .Site.Params.style.darkestColor | default "#57cc8a" }};
+$dark-color: {{ .Site.Params.style.darkColor | default "#57cc8a" }};
+$light-color: {{ .Site.Params.style.lightColor | default "#57cc8a" }};
+$lightest-color: {{ .Site.Params.style.lightestColor | default "#57cc8a" }};
 $primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
 
 /* Light Mode Overrides */
@@ -53,11 +57,41 @@ $post-font: "Inter";
 .sidebar-category {
   width: 100%; /* Ensure it spans the sidebar width */
   text-align: left; /* Center the text, optional */
+
+  div {
+    border-color: var(--primary-color);
+  }
+
 }
 
 .sidebar-category-item {
   width: 100%; /* Ensure it spans the sidebar width */
   text-align: left; /* Center the text, optional */
+  padding: 0 0.3rem;
+  margin-top: 0.1em;
+  color: var(--lightest-color);
+  transition: color 0.35s;
+
+  &:hover {
+    transition: color 0.35s;
+
+    background-color: rgba($light-color, 0.2);
+    color: var(--primary-color);
+    border-radius: 0.3em;
+  }
+
+}
+
+.app-header-menu{
+  a{
+    color: var(--lightest-color);
+    transition: color 0.35s;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
 }
 
 .line{
