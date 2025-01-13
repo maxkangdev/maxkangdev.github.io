@@ -28,14 +28,11 @@
   }
 
   blockquote {
-    border-left: 0.4em solid rgba(var(--primary-color), .8);
-    margin: 1em 0em;
-    padding: .5em 1em;
-    background: var(--darkest-color);
-
-    p {
-      margin: .5em 0;
-    }
+    border-left: 2px solid var(--primary-color);
+    padding: 0px 10px; /* Space inside the blockquote */
+    margin: 10px 0; /* Space outside the blockquote */
+    background-color: var(--dark-color); /* Dark background color */
+    font-family: 'Arial', sans-serif; /* Adjust if needed */
   }
 
   img {
