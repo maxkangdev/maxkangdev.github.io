@@ -29,11 +29,11 @@ defaultContentLanguageInSubdir = true
   darkColor = "#1b1b1e"
   lightColor = "#aeb0b1"
   lightestColor = "#cbcbcb"
-  primaryColor = "#57cc8a"
+  primaryColor = "#8a5cf4"
 
 [params.style.lightMode]
   darkestColor = "#f0f0f0"
   darkColor = "#ffffff"
   lightColor = "#34343c"
   lightestColor = "#000000"
-  primaryColor = "#57cc8a"
+  primaryColor = "#8a5cf4"
