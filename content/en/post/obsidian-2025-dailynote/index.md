@@ -5,7 +5,7 @@ date: 2025-01-15T21:20:37+09:00
 draft: false
 tags:
   - obsidian
-title: 옵시디언으로 2025 Daily Note / Yearly Note 설정하기
+title: "[Obsidian] 2025 Daily Note / Yearly Note 설정하기"
 ---
 
 ## Overview
