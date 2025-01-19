@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9372d177b26a8a5d",
+        "id": "52170afd24f650c8",
         "type": "tabs",
         "children": [
           {
-            "id": "005faa17c2869d86",
+            "id": "e2aaea0f89f1cdd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ko/post/docker-network/index.md",
+                "file": "ko/post/network-router/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 300.5
   },
   "right": {
     "id": "53bf52d8105f04c0",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ko/post/docker-network/index.md",
+                "file": "ko/post/diff-between-single-and-double-quote-in-yaml/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ko/post/docker-network/index.md"
+                "file": "ko/post/network-router/index.md"
               },
               "icon": "lucide-list",
               "title": "Outline of index"
@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,52 +163,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "005faa17c2869d86",
+  "active": "e2aaea0f89f1cdd1",
   "lastOpenFiles": [
+    "ko/post/network-osi-model/index.md",
+    "ko/post/network-macaddress/index.md",
+    "ko/post/network-hub-bridges-switches/index.md",
+    "ko/post/network-bum-traffic/index.md",
+    "en/post/obsidian-2025-dailynote/index.md",
+    "en/post/network-router/index.md",
+    "en/post/network-osi-model/index.md",
+    "en/post/network-macaddress/index.md",
+    "en/post/network-hub-bridges-switches/index.md",
+    "en/post/network-bum-traffic/index.md",
     "en/post/linux-networking-basics/index.md",
-    "ko/post/docker-network/index.md",
-    "linux-networking-basics.md",
-    "ko/post/docker-network/Screenshot 2025-01-12 at 10.09.23 PM.png",
-    "en/post/docker-network/index.md",
-    "ko/post/docker-network",
-    "ko/post/fastapi-sqlmodel-uv-skeleton/index.md",
-    "en/post/docker-network",
-    "ko/post/kubectl-git-action-error/index.md",
-    "ko/post/linux-networking-basics/index.md",
-    "test/en/index.md",
-    "test/ko/index.md",
-    "test/Screenshot 2025-01-12 at 12.17.47 PM.png",
-    "test/en",
-    "Screenshot 2025-01-12 at 12.17.47 PM.png",
-    "test/ko/en",
-    "test/ko",
-    "test",
-    "ko/post/airflow-logical-date/index.md",
-    "en/post/airflow-logical-date/index.md",
-    "ko/post/linux-networking-basics/Screenshot 2025-01-12 at 12.58.18 PM.png",
-    "ko/post/linux-networking-basics/Screenshot 2025-01-12 at 12.42.48 PM.png",
-    "ko/post/linux-networking-basics/Screenshot 2025-01-12 at 12.23.16 PM.png",
-    "ko/post/linux-networking-basics/Screenshot 2025-01-12 at 12.20.44 PM.png",
-    "ko/post/linux-networking-basics/Screenshot 2025-01-12 at 4.29.47 PM.png",
-    "ko/post/linux-networking-basics/Screenshot 2025-01-12 at 3.38.59 PM.png",
-    "ko/post/linux-networking-basics/Screenshot 2025-01-12 at 2.10.04 PM.png",
-    "en/post/k8s-pod-replicaset-deployment/index.md",
-    "ko/post/linux-networking-basics",
-    "en/post/linux-networking-basics",
-    "ko/post/diff-between-single-and-double-quote-in-yaml/index.md",
-    "en/post/diff-between-single-and-double-quote-in-yaml/index.md",
-    "ko/post/diff-between-single-and-double-quote-in-yaml",
-    "en/post/diff-between-single-and-double-quote-in-yaml",
-    "en/post/diff-between-single-and-.md",
-    "templates/Post Template.md",
+    "en/post/network-router/Screenshot 2025-01-19 at 3.23.35 PM.png",
+    "en/post/network-router",
+    "en/post/network-osi-model",
+    "en/post/network-macaddress/Screenshot 2025-01-19 at 12.09.03 PM.png",
+    "en/post/network-macaddress/Screenshot 2025-01-19 at 11.44.57 AM.png",
+    "en/post/network-macaddress",
+    "en/post/network-hub-bridges-switches/Screenshot 2025-01-19 at 12.29.45 PM.png",
+    "en/post/network-hub-bridges-switches/Screenshot 2025-01-19 at 12.24.02 PM.png",
+    "en/post/network-hub-bridges-switches",
+    "en/post/network-bum-traffic/Screenshot 2025-01-19 at 2.54.25 PM.png",
+    "en/post/network-bum-traffic/Screenshot 2025-01-19 at 2.38.20 PM.png",
+    "en/post/network-bum-traffic/Screenshot 2025-01-19 at 2.36.27 PM.png",
+    "en/post/network-bum-traffic",
+    "ko/post/network-tcp-udp/index.md",
+    "ko/post/network-router/index.md",
+    "ko/post/network-tcp-udp",
     "ko/post/Untitled.md",
-    "en/post/k8s-commands-arguments/index.md",
-    "en/post/k8s-cluster-architecture/index.md",
-    "Untitled.md",
-    "ko/post/test/index.md.md",
-    "Untitled 1.md",
-    "ko/post/failed-to-install-tokenizers/index.md",
-    "en/post/fastapi-sqlmodel-uv-skeleton/index.md",
-    "en/post/failed-to-install-tokenizers/index.md"
+    "ko/post/network-router/Screenshot 2025-01-19 at 3.23.35 PM.png",
+    "ko/post/network-router",
+    "ko/post/network-bum-traffic/Screenshot 2025-01-19 at 2.54.25 PM.png",
+    "ko/post/network-bum-traffic",
+    "ko/post/network-osi-model",
+    "ko/post/linux-networking-basics/index.md",
+    "ko/post/network-hub-bridges-switches",
+    "ko/project/index.md",
+    "ko/post/network-macaddress/Untitled.md",
+    "en/post/docker-network/index.md",
+    "en/post/connect-to-localhost-from-docker-container/index.md",
+    "ko/post/connect-to-localhost-from-docker-container/index.md",
+    "ko/post/obsidian-2025-dailynote/index.md",
+    "ko/post/docker-network/index.md",
+    "en/post/Untitled.md",
+    "ko/post/diff-between-single-and-double-quote-in-yaml/index.md",
+    "templates/Post Template.md",
+    "linux-networking-basics.md"
   ]
 }
