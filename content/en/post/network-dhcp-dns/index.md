@@ -2,7 +2,7 @@
 categories:
   - network|네트워크
 date: 2025-01-23T11:25:28+09:00
-draft: true
+draft: false
 tags:
   - network
 title: "[Network] DHCP, DNS"
