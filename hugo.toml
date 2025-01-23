@@ -7,6 +7,14 @@ enableRobotsTXT = true
 defaultContentLanguage = 'ko'
 defaultContentLanguageInSubdir = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      hardLineBreak = true
+
+
 [sitemap]
   changefreq = "daily"
   priority = 0.5
@@ -44,3 +52,4 @@ defaultContentLanguageInSubdir = true
   lightColor = "#34343c"
   lightestColor = "#000000"
   primaryColor = "#8a5cf4"
+
