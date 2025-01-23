@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "52170afd24f650c8",
+        "id": "57c3c0dbadddf2dd",
         "type": "tabs",
         "children": [
           {
-            "id": "e2aaea0f89f1cdd1",
+            "id": "464d73041d2708e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ko/post/network-router/index.md",
+                "file": "templates/Post Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Post Template"
             }
           }
         ]
@@ -52,8 +52,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "[draft: true]",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,14 +140,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ko/post/network-router/index.md"
+                "file": "templates/Post Template.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Post Template"
+            }
+          },
+          {
+            "id": "cb9fd5b8575fd481",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -160,56 +171,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e2aaea0f89f1cdd1",
+  "active": "464d73041d2708e8",
   "lastOpenFiles": [
+    "en/post/docker-network/index.md",
+    "en/post/linux-networking-basics/index.md",
+    "en/post/network-dhcp-dns/index.md",
+    "en/post/network-wan-vpn/index.md",
+    "ko/post/docker-network/index.md",
+    "ko/post/linux-networking-basics/index.md",
+    "ko/post/minimalism-clothing/index.md",
+    "ko/post/why-start-blog/index.md",
+    "ko/post/network-wan-vpn/index.md",
+    "ko/post/network-dhcp-dns/index.md",
+    "en/post/network-wan-vpn/Screenshot 2025-01-23 at 9.55.44 AM.png",
+    "en/post/network-wan-vpn",
+    "en/post/network-dhcp-dns",
+    "en/network-dhcp-dns/index.md",
+    "en/network-dhcp-dns",
+    "ko/post/network-dhcp-dns",
+    "ko/post/network-wan-vpn/Screenshot 2025-01-23 at 9.55.44 AM.png",
+    "ko/post/Untitled.md",
+    "ko/post/network-wan-vpn",
+    "en/post/minimalism-clothing/index.md",
+    "templates/Post Template.md",
+    "en/post/network-vlan/index.md",
+    "ko/post/network-vlan/index.md",
+    "en/post/network-vlan/Screenshot 2025-01-19 at 9.31.48 PM.png",
+    "en/post/network-vlan/Screenshot 2025-01-19 at 9.27.27 PM.png",
+    "en/post/network-vlan/Screenshot 2025-01-19 at 9.26.05 PM.png",
+    "en/post/network-vlan/Screenshot 2025-01-19 at 9.21.36 PM.png",
+    "en/post/network-vlan",
+    "ko/post/network-vlan/Screenshot 2025-01-19 at 9.31.48 PM.png",
+    "ko/post/network-vlan/Screenshot 2025-01-19 at 9.27.27 PM.png",
+    "ko/post/network-vlan/Screenshot 2025-01-19 at 9.26.05 PM.png",
+    "ko/post/network-vlan/Screenshot 2025-01-19 at 9.21.36 PM.png",
+    "en/post/network-router/index.md",
+    "ko/post/network-vlan",
+    "en/post/obsidian-2025-dailynote/index.md",
+    "ko/post/network-router/index.md",
     "ko/post/network-osi-model/index.md",
     "ko/post/network-macaddress/index.md",
     "ko/post/network-hub-bridges-switches/index.md",
     "ko/post/network-bum-traffic/index.md",
-    "en/post/obsidian-2025-dailynote/index.md",
-    "en/post/network-router/index.md",
     "en/post/network-osi-model/index.md",
     "en/post/network-macaddress/index.md",
     "en/post/network-hub-bridges-switches/index.md",
-    "en/post/network-bum-traffic/index.md",
-    "en/post/linux-networking-basics/index.md",
-    "en/post/network-router/Screenshot 2025-01-19 at 3.23.35 PM.png",
     "en/post/network-router",
     "en/post/network-osi-model",
-    "en/post/network-macaddress/Screenshot 2025-01-19 at 12.09.03 PM.png",
-    "en/post/network-macaddress/Screenshot 2025-01-19 at 11.44.57 AM.png",
-    "en/post/network-macaddress",
-    "en/post/network-hub-bridges-switches/Screenshot 2025-01-19 at 12.29.45 PM.png",
-    "en/post/network-hub-bridges-switches/Screenshot 2025-01-19 at 12.24.02 PM.png",
-    "en/post/network-hub-bridges-switches",
-    "en/post/network-bum-traffic/Screenshot 2025-01-19 at 2.54.25 PM.png",
-    "en/post/network-bum-traffic/Screenshot 2025-01-19 at 2.38.20 PM.png",
-    "en/post/network-bum-traffic/Screenshot 2025-01-19 at 2.36.27 PM.png",
-    "en/post/network-bum-traffic",
-    "ko/post/network-tcp-udp/index.md",
-    "ko/post/network-router/index.md",
-    "ko/post/network-tcp-udp",
-    "ko/post/Untitled.md",
-    "ko/post/network-router/Screenshot 2025-01-19 at 3.23.35 PM.png",
-    "ko/post/network-router",
-    "ko/post/network-bum-traffic/Screenshot 2025-01-19 at 2.54.25 PM.png",
-    "ko/post/network-bum-traffic",
-    "ko/post/network-osi-model",
-    "ko/post/linux-networking-basics/index.md",
-    "ko/post/network-hub-bridges-switches",
-    "ko/project/index.md",
-    "ko/post/network-macaddress/Untitled.md",
-    "en/post/docker-network/index.md",
-    "en/post/connect-to-localhost-from-docker-container/index.md",
-    "ko/post/connect-to-localhost-from-docker-container/index.md",
-    "ko/post/obsidian-2025-dailynote/index.md",
-    "ko/post/docker-network/index.md",
-    "en/post/Untitled.md",
-    "ko/post/diff-between-single-and-double-quote-in-yaml/index.md",
-    "templates/Post Template.md",
-    "linux-networking-basics.md"
+    "en/post/network-macaddress"
   ]
 }
