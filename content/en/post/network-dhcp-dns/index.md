@@ -91,4 +91,109 @@ For example, it converts `www.google.com` into `142.241.40.196`.
 - **Security vulnerabilities**: DNS can be targeted by attacks like **DNS spoofing** (DNS cache poisoning), which misleads users by redirecting them to incorrect IP addresses.
 - **Dependence on centralized systems**: If key DNS servers go down, many users may lose access to the internet.
 
+## Real-World Example
+
+You can easily configure name resolution by modifying the `/etc/hosts` file.
+```zsh
+# /etc/hosts
+192.168.1.11    db
+```
+With this setup, instead of running `ping 192.168.1.11`, you can simply run `ping db` (also works for `ssh`, `curl`, etc.).
+
+This method of registering names mapped to IPs in `/etc/hosts` is called **Name Resolution**.  
+In the past, when there were only a few computers, this method was commonly used.  
+![](Screenshot%202025-01-12%20at%201.45.21%20PM.png)
+
+#### But what if the number of computers keeps increasing?
+
+Management becomes difficult...  
+For example, if even one computer’s address changes, you would need to update the `/etc/hosts` file on every other machine.  
+![](Screenshot%202025-01-12%20at%201.46.07%20PM.png)
+
+To address this, people stopped managing this individually and instead introduced a shared **DNS Server** to handle name resolution for everyone.
+
+**How does this work?**
+
+If the DNS server has an IP of `192.168.1.100`, each host can be configured by adding the following to the `/etc/resolv.conf` file:
+```zsh
+# /etc/resolv.conf
+nameserver    192.168.1.100
+```
+With this configuration, when a host encounters an unknown hostname, it queries the DNS server to resolve it.  
+This way, even if a host’s IP address changes, you only need to update the DNS server 😆.  
+![](Screenshot%202025-01-12%20at%202.10.04%20PM.png)
+
+If a hostname is registered both locally and on the DNS server, the local entry takes priority.  
+This behavior is controlled by the `/etc/nsswitch.conf` file, where you can change the priority by placing `dns` before `files`.
+```zsh
+# /etc/nsswitch.conf
+...
+hosts:    files dns
+```
+
+You can also add multiple DNS servers:
+```zsh
+# /etc/resolv.conf
+nameserver 192.168.1.100
+nameserver 8.8.8.8  # Google's public DNS server that knows all the websites on the internet
+```
+But then again, if a new DNS server is added, you would need to update `/etc/resolv.conf` on every host. To avoid this, DNS servers can forward requests for unknown names to other DNS servers.
+
+
+## Domain Name Structure
+
+`www.google.com` is an example of a domain name, structured as follows:
+- `.` Root
+- `.com` Top-Level Domain (TLD)
+- `google` Domain Name
+- `www` Subdomain
+    - Used to further segment domain services.
+    - Examples: `mail` (Gmail), `map` (Google Maps), etc.
+
+**So, what happens when you access `apps.google.com` in a corporate environment?**
+
+1. The corporate DNS server (Org DNS) is queried for the IP of `apps.google.com`.
+2. If the corporate DNS server doesn’t know, it queries a public DNS server. The process might look like this:
+    1. The `Root DNS` directs the query to `.com DNS`.
+    2. `.com DNS` forwards it to `Google DNS`.
+    3. `Google DNS` provides the IP.
+3. The corporate DNS server receives the IP and returns it to the requester.  
+   *Additionally, the corporate DNS server will likely cache this information for efficiency.*
+
+**Do Google employees also access `apps.google.com` like this?**
+
+I don’t work at Google, so I can’t say for sure 🤔, but let’s assume they don’t.  
+Wouldn’t it make sense for Google employees to simply access it as `apps`?  
+By configuring the system like this, name resolution appends the search domain automatically:
+```zsh
+# /etc/resolv.conf
+nameserver 192.168.1.100
+search google.com
+```
+`ping apps` -> `ping apps(.google.com)`
+
+**But doesn’t `ping apps.google.com` turn into `ping apps.google.com(.google.com)`?**  
+Developers aren’t that careless... The system handles it properly 😝.
+
+You can also specify multiple search domains:
+```zsh
+search google.com dev.google.com
+```
+
+## Record Types
+
+DNS servers store various types of information. The three most common ones are:
+
+- **A**
+    - Maps a hostname to an IPv4 address.
+    - Example: `web-server : 192.168.1.1`
+
+- **AAAA**
+    - Maps a hostname to an IPv6 address.
+    - Example: `web-server : 2001:0000:130F:0000:0000:09C0:876A:130B`
+
+- **CNAME**
+    - Maps a hostname to another hostname.
+    - Useful for assigning multiple names to the same site.
+    - Example: `food.web-server : eat.web-server, hungry.web-server`
 
