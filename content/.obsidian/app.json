@@ -3,5 +3,6 @@
   "defaultViewMode": "source",
   "readableLineLength": false,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true
 }

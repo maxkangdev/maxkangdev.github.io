@@ -1,4 +1,5 @@
 {
   "accentColor": "#00fa32",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "translucency": true
 }

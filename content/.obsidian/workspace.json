@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "57c3c0dbadddf2dd",
+        "id": "609fc1a5b2cd501f",
         "type": "tabs",
         "children": [
           {
-            "id": "464d73041d2708e8",
+            "id": "13d3e41021267f5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Post Template.md",
+                "file": "ko/post/clean-code-meaningful-names/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Post Template"
+              "title": "index"
             }
           }
         ]
@@ -55,7 +55,7 @@
                 "query": "[draft: true]",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Post Template.md"
+                "file": "ko/post/network-ntp/index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Post Template"
+              "title": "Outline of index"
             }
           },
           {
@@ -161,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,53 +175,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "464d73041d2708e8",
+  "active": "13d3e41021267f5d",
   "lastOpenFiles": [
-    "en/post/docker-network/index.md",
-    "en/post/linux-networking-basics/index.md",
+    "ko/post/clean-code/index.md",
+    "en/post/clean-code-meaningful-names/index.md",
+    "en/post/clean-code/index.md",
+    "ko/post/clean-code-meaningful-names/index.md",
+    "en/post/clean-code-meaningful-names",
+    "en/post/clean-code",
+    "en/post/helm/index.md",
+    "en/post/k8s-ingress/index.md",
+    "ko/post/helm/index.md",
+    "en/post/helm/Screenshot 2025-02-02 at 10.57.09 PM.png",
+    "en/post/helm/Screenshot 2025-01-30 at 2.58.15 PM.png",
+    "en/post/helm",
+    "ko/post/k8s-cluster-architecture/index.md",
+    "ko/post/cleancode-function",
+    "ko/post/clean-code-meaningful-names",
+    "ko/post/clean-code/Untitled",
+    "ko/post/clean-code",
+    "ko/post/helm/Screenshot 2025-02-02 at 10.57.09 PM.png",
+    "ko/post/helm/Screenshot 2025-01-30 at 2.58.15 PM.png",
+    "ko/post/helm",
+    "en/post/network-container-network-interface/index.md",
     "en/post/network-dhcp-dns/index.md",
-    "en/post/network-wan-vpn/index.md",
-    "ko/post/docker-network/index.md",
-    "ko/post/linux-networking-basics/index.md",
-    "ko/post/minimalism-clothing/index.md",
-    "ko/post/why-start-blog/index.md",
-    "ko/post/network-wan-vpn/index.md",
-    "ko/post/network-dhcp-dns/index.md",
-    "en/post/network-wan-vpn/Screenshot 2025-01-23 at 9.55.44 AM.png",
-    "en/post/network-wan-vpn",
-    "en/post/network-dhcp-dns",
-    "en/network-dhcp-dns/index.md",
-    "en/network-dhcp-dns",
-    "ko/post/network-dhcp-dns",
-    "ko/post/network-wan-vpn/Screenshot 2025-01-23 at 9.55.44 AM.png",
-    "ko/post/Untitled.md",
-    "ko/post/network-wan-vpn",
+    "ko/post/network-container-network-interface/index.md",
+    "en/post/network-container-network-interface/Screenshot 2025-01-26 at 2.44.22 PM.png",
+    "en/post/network-container-network-interface",
+    "ko/post/container-network-interface/Untitled.md",
+    "ko/post/k8s-ingress/index.md",
+    "en/post/k8s-ingress/Screenshot 2025-01-27 at 4.39.05 PM.png",
+    "en/post/k8s-ingress/Screenshot 2025-01-27 at 4.19.10 PM.png",
+    "en/post/k8s-ingress/Screenshot 2025-01-27 at 4.17.39 PM.png",
+    "en/post/k8s-ingress/Screenshot 2025-01-27 at 3.58.13 PM.png",
+    "en/post/k8s-ingress",
+    "ko/post/k8s-ingress/Screenshot 2025-01-27 at 4.39.05 PM.png",
+    "en/post/book-unstoppable/index.md",
+    "ko/post/book-unstoppable/index.md",
     "en/post/minimalism-clothing/index.md",
+    "ko/post/minimalism-clothing/index.md",
+    "ko/post/network-dhcp-dns/index.md",
     "templates/Post Template.md",
-    "en/post/network-vlan/index.md",
-    "ko/post/network-vlan/index.md",
-    "en/post/network-vlan/Screenshot 2025-01-19 at 9.31.48 PM.png",
-    "en/post/network-vlan/Screenshot 2025-01-19 at 9.27.27 PM.png",
-    "en/post/network-vlan/Screenshot 2025-01-19 at 9.26.05 PM.png",
-    "en/post/network-vlan/Screenshot 2025-01-19 at 9.21.36 PM.png",
-    "en/post/network-vlan",
-    "ko/post/network-vlan/Screenshot 2025-01-19 at 9.31.48 PM.png",
-    "ko/post/network-vlan/Screenshot 2025-01-19 at 9.27.27 PM.png",
-    "ko/post/network-vlan/Screenshot 2025-01-19 at 9.26.05 PM.png",
-    "ko/post/network-vlan/Screenshot 2025-01-19 at 9.21.36 PM.png",
-    "en/post/network-router/index.md",
-    "ko/post/network-vlan",
-    "en/post/obsidian-2025-dailynote/index.md",
     "ko/post/network-router/index.md",
-    "ko/post/network-osi-model/index.md",
-    "ko/post/network-macaddress/index.md",
+    "ko/post/linux-networking-basics/index.md",
     "ko/post/network-hub-bridges-switches/index.md",
-    "ko/post/network-bum-traffic/index.md",
-    "en/post/network-osi-model/index.md",
-    "en/post/network-macaddress/index.md",
-    "en/post/network-hub-bridges-switches/index.md",
-    "en/post/network-router",
-    "en/post/network-osi-model",
-    "en/post/network-macaddress"
+    "en/post/linux-networking-basics/index.md",
+    "ko/post/docker-network/index.md",
+    "en/post/docker-network/index.md",
+    "en/docker-network/index.md"
   ]
 }
