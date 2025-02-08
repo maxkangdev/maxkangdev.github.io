@@ -34,8 +34,6 @@ def print_user_info(user):
 - The logic for combining the name and printing is mixed.
 - The function performs multiple tasks, making maintenance difficult.
 
----
-
 ## **2. Do One Thing**
 > A function should do only one thing.  
 > This rule ensures that a function does not perform multiple tasks, improving readability and maintainability.  
@@ -63,8 +61,6 @@ def process_and_print_area(radius):
 ```
 - `process_and_print_area()` calculates the area and also prints it.
 - Mixing multiple tasks in one function makes it harder to understand and maintain.
-
----
 
 ## **3. Minimize Function Arguments**
 > Functions should have as few parameters as possible.  
@@ -96,8 +92,6 @@ def process_order(price, quantity, customer_name, customer_address, discount, ta
 - Too many parameters increase complexity and the chance of errors.
 - The function's role is unclear, and modifications impact a wide range of code.
 
----
-
 ## **4. Avoid Side Effects**
 > Side effects occur when a function modifies external state.  
 > Functions should rely only on their input and avoid modifying external data or states.  
@@ -128,7 +122,6 @@ def calculate_area_and_update_log(radius):
 - Changing external state (log file) makes the function less predictable and harder to test.
 - Eliminating side effects results in a clearer and more independent function.
 
----
 
 ## **5. Separate Commands and Queries**
 > Commands modify state, while queries return data without changing state.  
@@ -163,7 +156,6 @@ class ShoppingCart:
 - `add_item_and_get_count()` both modifies the state and retrieves data.
 - Mixing commands and queries makes the function unclear and harder to test.
 
----
 
 ## **6. Use Exceptions Instead of Error Codes**
 > Instead of returning error codes, use exceptions to handle errors.  
@@ -192,7 +184,6 @@ def withdraw(amount, balance):
 - `withdraw()` returns an error code instead of raising an exception.
 - The caller must check and handle the error manually, leading to complex and unclear logic.
 
----
 
 ## **7. Handle Exceptions in One Place**
 > **Exception handling should be separate from core logic to maintain code clarity.**
@@ -229,7 +220,6 @@ public void processOrder(Order order) {
 ```
 - **Mixing business logic and exception handling reduces readability**.
 
----
 
 ## **8. Avoid Duplication**
 > Avoiding duplicate code is crucial. Repeated code makes modifications harder and increases the risk of errors.  
@@ -257,7 +247,6 @@ def calculate_final_price(price, discount_rate, tax_rate):
 ```
 - The discount calculation is repeated, making maintenance difficult.
 
----
 
 ## **Questions to Ask When Writing Functions**
 1. Is the function too large?
