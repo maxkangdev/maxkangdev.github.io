@@ -136,13 +136,12 @@ html {
 
 .post-toc {
   font-size: 0.9em;
-  position: sticky;
-  top: 20px; /* Distance from the top of the viewport */
-  max-height: calc(100vh - 40px); /* Prevent overflow */
-  overflow-y: auto; /* Scroll if content exceeds max height */
+  /* Change sticky to relative for better scroll behavior */
+  position: relative;
+  max-height: none; /* Let it grow inside the sidebar */
+  overflow-y: auto; /* Enable scrolling */
   border-left: 1px solid #ddd;
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .post-toc ul {

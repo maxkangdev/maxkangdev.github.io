@@ -40,11 +40,18 @@
 }
 
 .app-right-sidebar {
-  padding: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 5em;
+  padding-bottom: 5em;
   text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* Remove space-between to avoid pushing elements apart */
+  justify-content: flex-start;
+  /* Allow sidebar to scroll independently */
+  overflow-y: auto;
+  max-height: 100vh;
 }
 
 @media (min-width: 940px) {
@@ -64,12 +71,25 @@
   }
 
   .app-right-sidebar {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     position: fixed;
-    margin-top: 5rem;
     top: 0;
     right: 0;
     width: 20rem;
-    min-height: 100vh;
+    height: 100vh; /* Ensure full viewport height */
+    overflow-y: auto; /* Allow sidebar to scroll */
+  }
+
+  .post-toc {
+    font-size: 0.9em;
+    position: relative; /* No sticky needed inside fixed container */
+    overflow-y: auto; /* Enable scroll for the TOC */
+    max-height: calc(100vh - 10em); /* Account for sidebar paddings */
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
   }
 
 }
