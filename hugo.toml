@@ -15,11 +15,6 @@ defaultContentLanguageInSubdir = true
       hardLineBreak = true
 
 
-[sitemap]
-  changefreq = "daily"
-  priority = 0.5
-  filename = "sitemap.xml"
-
 [languages]
   [languages.ko]
     contentDir = 'content/ko'
@@ -30,6 +25,9 @@ defaultContentLanguageInSubdir = true
     title = '맥스의 블로그'
     weight = 1
 
+    [languages.ko.outputs]
+            home = ["HTML", "RSS", "Sitemap"]
+
   [languages.en]
     contentDir = 'content/en'
     disabled = false
@@ -38,6 +36,9 @@ defaultContentLanguageInSubdir = true
     languageName = 'English'
     title = "Max's Blog"
     weight = 2
+
+    [languages.en.outputs]
+            home = ["HTML", "RSS", "Sitemap"]
 
 [params.style]
   darkestColor = "#242930"
